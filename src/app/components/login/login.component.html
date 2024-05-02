@@ -1,0 +1,13 @@
+<div  class="color-background-card" >
+  <h3>Login</h3>
+  <hr style="border: 1px solid #0a41f7;">
+  <form [formGroup]="loginForm">
+  
+    <ion-input formControlName="nombre" label="Nombre:"></ion-input>
+    <ion-text [hidden]="nombre?.valid || nombre?.pristine" color="danger">
+      ingrese un nombre</ion-text>
+    <ion-input formControlName="password" label="Password:"></ion-input>
+    <ion-text [hidden]="password?.valid || password?.pristine" color="danger">
+      ingrese password valido</ion-text>
+  </form>
+</div>

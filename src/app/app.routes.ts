@@ -11,11 +11,23 @@ export const routes: Routes = [
     pathMatch: 'full',
   },
   {
-    path: 'administracion',
-    loadComponent: () => import('./adminitrador/administracion.page').then( m => m.AdministracionPage)
+    path: 'admin',
+    loadComponent: () => import('./admin/admin.page').then( m => m.AdminPage)
   },
   {
-    path: 'usuario',
-    loadComponent: () => import('./usuario/usuario.page').then( m => m.UsuarioPage)
+    path: 'user',
+    loadComponent: () => import('./user/user.page').then( m => m.UserPage)
+  },
+  {
+    path: 'home',
+    loadComponent: () => import('./home/home.page').then( m => m.HomePage)
+  },
+  {
+    path: 'admin',
+    loadComponent: () => import('./admin/admin.page').then( m => m.AdminPage)
+  },
+  {
+    path: 'user',
+    loadComponent: () => import('./user/user.page').then( m => m.UserPage)
   },
 ];

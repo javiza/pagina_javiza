@@ -1,0 +1,19 @@
+ion-card {
+    max-width: 300px; // Ajusta el ancho máximo de la tarjeta según tus necesidades
+    width: 100%;
+  }
+  .content {
+    padding: 16px; // Ajusta el valor de padding según tus necesidades
+    text-align: center; // Centra el texto horizontalmente
+  }
+  h3{
+    text-align: center;
+  }
+  .color-background-card{
+    background-color: #d3dadb;
+    border: 1px solid #363434; /* Borde gris */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  }

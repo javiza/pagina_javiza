@@ -1,14 +1,21 @@
-import { Component } from '@angular/core';
-
-import { IonHeader, IonToolbar, IonTitle, IonContent, IonCard} from '@ionic/angular/standalone';
+import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { IonContent, IonHeader, IonTitle, IonToolbar } from '@ionic/angular/standalone';
+import { LoginComponent } from '../components/login/login.component';
 
 @Component({
   selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
+  templateUrl: './home.page.html',
+  styleUrls: ['./home.page.scss'],
   standalone: true,
-  imports: [IonHeader, IonToolbar, IonTitle, IonContent, IonCard],
+  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule, LoginComponent]
 })
-export class HomePage {
-  constructor() {}
+export class HomePage implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
 }
