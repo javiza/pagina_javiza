@@ -6,16 +6,24 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">: Desarrollador:</ion-title>
-      
-    </ion-toolbar>
-  </ion-header>
+
+<ion-card>
+  <h2>jonathan bustos ramos</h2>
+</ion-card>
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Bienvenido Ingresa como usuario o como administrador
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-list>
+    <ion-item (click)="entrarComoAdministrador()">Entrar como Administrador</ion-item>
+    <ion-item (click)="entrarComoUsuario()">Entrar como Usuario</ion-item>
+  </ion-list>
 </ion-content>
-
-
  
  
 
