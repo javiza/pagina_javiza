@@ -23,7 +23,7 @@
     "@angular/router": "^17.0.2",
     "@capacitor-community/sqlite": "^5.7.3-3",
     "@capacitor/android": "^5.7.5",
-    "@capacitor/app": "6.0.0",
+    "@capacitor/app": "^5.0.8-dev-20240315T155919.0",
     "@capacitor/core": "^5.7.3",
     "@capacitor/haptics": "6.0.0",
     "@capacitor/keyboard": "6.0.0",
